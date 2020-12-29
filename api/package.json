@@ -1,0 +1,37 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "demo",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "egg": "^2.15.1",
+    "egg-bin": "^4.15.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "yugasun",
+  "license": "MIT",
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "development": {
+    "url": "这里要配置PG_CONNECT_STRING",
+    "dialect": "postgres"
+  }
+}
